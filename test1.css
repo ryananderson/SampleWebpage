@@ -1,0 +1,36 @@
+body {
+	background: url(bg.jpg) top center no-repeat #d5cac6;
+	font-family: Geneva;
+	letter-spacing: 0.7px; 
+}
+
+#wrapper {
+	width: 1200px;
+}
+
+#contentbox {
+	margin: 50px 0 0 800px;
+	width: 500px;
+	height: 250 px;
+	background-color: #fff;
+	opacity:0.2;
+	filter:alpha(opacity=20); /* For IE8 and earlier */
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+#textoverbox {
+	margin: -275px 0 0 800px;
+	width: 500px;
+	height: 250 px;
+}
+
+#textoverbox h1 {
+	margin:30px 40px 10px 20px;
+	color:#000000;
+}
+
+#textoverbox p {
+	margin: 0px 30px 10px 40px;
+	color:#000000;
+}
